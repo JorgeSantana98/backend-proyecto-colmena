@@ -27,4 +27,5 @@ const ColmenaSchema = mongoose.Schema({
   }
 });
   
-module.exports = mongoose.model('Termohumedad', ColmenaSchema);
+module.exports = mongoose.model('Termohumedad', ColmenaSchema,'Termohumedad')
+//module.exports = mongoose.model('NombreColeccionNueva', NombreDelSchema,';NombreColeccionExistenteEnMongoDB') Nota: Si no existe la coleccion la crea automaticamente
